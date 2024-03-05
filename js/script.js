@@ -39,11 +39,12 @@ const team = [
 ] 
 
 for(let worker of team){
+  let fullName = worker.firstName + ' ' + worker.lastName;
   output.innerHTML +=`
   <div class="card m-2  text-center" style="width: 30%">
     <img src="${worker.photo}" class="card-img-top" alt="${worker.firstName}">
     <div class="card-body">
-      <h5 class="card-title">${worker.firstName, worker.lastName}</h5>
+      <h5 class="card-title">${fullName}</h5>
       <p class="card-text">${worker.role}</p>
     </div>
   </div>`
