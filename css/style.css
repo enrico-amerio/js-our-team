@@ -5,8 +5,19 @@
 }
 body{
   font-family: "Roboto", sans-serif;
+  background-color: #f5f5f1;
 }
 .my_container{
   width: 70%;
   margin: 0 auto;
+}
+.my_container p, .card{
+  color: #716b65;
+
+}
+.card, .card-img-top{
+  border-radius: 0px;
+}
+.card{
+  border: 0px;
 }
